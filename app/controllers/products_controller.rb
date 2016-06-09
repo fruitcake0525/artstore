@@ -17,8 +17,6 @@ class ProductsController < ApplicationController
       flash[:warning] = "你的購物車內已有此物品"
     end
 
-      current_cart.add_product_to_cart(@product)
-
     redirect_to :back
   end
 end
