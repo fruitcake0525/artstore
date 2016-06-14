@@ -10,6 +10,7 @@ gem "aasm"
 gem "roadie","2.4.3"
 gem "letter_opener", group: :development
 gem "pay2go"
+gem "figaro"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.2'
